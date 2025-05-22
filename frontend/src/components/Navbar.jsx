@@ -46,6 +46,12 @@ const Navbar = () => {
         </NavLink>
       </ul>
       <div className="flex items-center gap-6">
+          {/* <button
+            onClick={() => navigate('../../../admin')} // Assuming you have an /admin route
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-sm"
+          >
+            Admin
+          </button> */}
         <img
           onClick={() => setShowSearch(true)}
           src={assets.search_icon}
